@@ -1,3 +1,3 @@
 # pharmaceutical-sales-prediction
 
-![pharmaceutical-sales](https://www.easyuni.my/media/uploads/2019/12/24/pharmacy-field.jpg)
+![pharmaceutical-sales](https://www.afd.fr/sites/afd/files/styles/visuel_principal/public/2019-10-09-27-46/flickr-marco-verch.jpg?itok=XH4x7-Y4)
