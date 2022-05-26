@@ -1,7 +1,3 @@
-###############################################################################
-# modules/packages
-################################################################################
-
 
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -9,9 +5,6 @@ import seaborn as sns
 
 
 class exploration:
-    ###############################################################################
-    # Visualization graphs
-    ################################################################################
 
     def plot_heatmap(df: pd.DataFrame, title: str, cbar=False) -> None:
         ''' 
