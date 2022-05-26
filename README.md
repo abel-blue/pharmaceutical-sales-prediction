@@ -8,8 +8,10 @@
 ## Machine Learning Pipeline Design
 
 ![pipeline-design](images/ml-pipeline-design.png)
-<!-- <details> -->
-  <!-- <summary>Presentation Slide</summary> -->
+  <img src="images/slide/3.png" name="">
+  <img src="images/slide/4.png" name="">
+<details>
+  <summary>Presentation Slide</summary>
   <img src="images/slide/1.png" name="">
   <img src="images/slide/2.png" name="">
   <img src="images/slide/3.png" name="">
@@ -23,4 +25,4 @@
   <img src="images/slide/11.png" name="">
   <img src="images/slide/12.png" name="">
   <img src="images/slide/13.png" name="">
-<!-- </details> -->
+</details>
