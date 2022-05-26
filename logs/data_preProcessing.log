@@ -524,3 +524,36 @@
 2022-05-26 05:58:35,786 : INFO : log_help : Outlier for CompetitionOpenSinceMonth is fixed
 2022-05-26 05:58:35,786 : INFO : log_help : Outlier for CompetitionOpenSinceMonth is fixed
 2022-05-26 05:58:35,786 : INFO : log_help : Outlier for CompetitionOpenSinceMonth is fixed
+2022-05-26 06:18:24,729 : INFO : log_help : Colums with missing values: ['floats']
+2022-05-26 06:18:24,729 : INFO : log_help : Colums with missing values: ['floats']
+2022-05-26 06:18:24,729 : INFO : log_help : Colums with missing values: ['floats']
+2022-05-26 06:18:24,761 : INFO : log_help : Converted to numbers
+2022-05-26 06:18:24,761 : INFO : log_help : Converted to numbers
+2022-05-26 06:18:24,761 : INFO : log_help : Converted to numbers
+2022-05-26 06:18:24,761 : INFO : log_help : Converted to numbers
+2022-05-26 06:18:24,766 : INFO : log_help : Showing coloumn names
+2022-05-26 06:18:24,766 : INFO : log_help : Showing coloumn names
+2022-05-26 06:18:24,766 : INFO : log_help : Showing coloumn names
+2022-05-26 06:18:24,766 : INFO : log_help : Showing coloumn names
+2022-05-26 06:18:24,766 : INFO : log_help : Showing coloumn names
+2022-05-26 06:18:24,814 : INFO : log_help : Dropped duplicates: Int64Index([], dtype='int64')
+2022-05-26 06:18:24,814 : INFO : log_help : Dropped duplicates: Int64Index([], dtype='int64')
+2022-05-26 06:18:24,814 : INFO : log_help : Dropped duplicates: Int64Index([], dtype='int64')
+2022-05-26 06:18:24,814 : INFO : log_help : Dropped duplicates: Int64Index([], dtype='int64')
+2022-05-26 06:18:24,814 : INFO : log_help : Dropped duplicates: Int64Index([], dtype='int64')
+2022-05-26 06:18:24,814 : INFO : log_help : Dropped duplicates: Int64Index([], dtype='int64')
+2022-05-26 06:18:24,821 : INFO : log_help : Showing data information
+2022-05-26 06:18:24,821 : INFO : log_help : Showing data information
+2022-05-26 06:18:24,821 : INFO : log_help : Showing data information
+2022-05-26 06:18:24,821 : INFO : log_help : Showing data information
+2022-05-26 06:18:24,821 : INFO : log_help : Showing data information
+2022-05-26 06:18:24,821 : INFO : log_help : Showing data information
+2022-05-26 06:18:24,821 : INFO : log_help : Showing data information
+2022-05-26 06:18:24,873 : INFO : log_help : Showing datatypes
+2022-05-26 06:18:24,873 : INFO : log_help : Showing datatypes
+2022-05-26 06:18:24,873 : INFO : log_help : Showing datatypes
+2022-05-26 06:18:24,873 : INFO : log_help : Showing datatypes
+2022-05-26 06:18:24,873 : INFO : log_help : Showing datatypes
+2022-05-26 06:18:24,873 : INFO : log_help : Showing datatypes
+2022-05-26 06:18:24,873 : INFO : log_help : Showing datatypes
+2022-05-26 06:18:24,873 : INFO : log_help : Showing datatypes
