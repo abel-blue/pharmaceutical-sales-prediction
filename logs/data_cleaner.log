@@ -169,3 +169,82 @@
 2022-05-26 05:58:35,786 : INFO : log_help : Outlier for CompetitionOpenSinceMonth is fixed
 2022-05-26 05:58:35,786 : INFO : log_help : Outlier for CompetitionOpenSinceMonth is fixed
 2022-05-26 05:58:35,786 : INFO : log_help : Outlier for CompetitionOpenSinceMonth is fixed
+2022-05-26 23:56:37,224 : INFO : log_help : Showing data information
+2022-05-27 00:10:40,204 : INFO : log_help : Showing data information
+2022-05-27 00:10:40,204 : INFO : log_help : Showing data information
+2022-05-27 00:10:40,204 : INFO : log_help : Showing data information
+2022-05-27 00:10:40,204 : INFO : log_help : Showing data information
+2022-05-27 00:11:27,007 : INFO : log_help : Colums with missing values: ['CompetitionDistance', 'CompetitionOpenSinceMonth', 'CompetitionOpenSinceYear', 'Promo2SinceWeek', 'Promo2SinceYear', 'PromoInterval']
+2022-05-27 00:11:27,007 : INFO : log_help : Colums with missing values: ['CompetitionDistance', 'CompetitionOpenSinceMonth', 'CompetitionOpenSinceYear', 'Promo2SinceWeek', 'Promo2SinceYear', 'PromoInterval']
+2022-05-27 00:11:27,007 : INFO : log_help : Colums with missing values: ['CompetitionDistance', 'CompetitionOpenSinceMonth', 'CompetitionOpenSinceYear', 'Promo2SinceWeek', 'Promo2SinceYear', 'PromoInterval']
+2022-05-27 00:11:27,007 : INFO : log_help : Colums with missing values: ['CompetitionDistance', 'CompetitionOpenSinceMonth', 'CompetitionOpenSinceYear', 'Promo2SinceWeek', 'Promo2SinceYear', 'PromoInterval']
+2022-05-27 00:11:51,269 : INFO : log_help : Showing data information
+2022-05-27 00:11:51,269 : INFO : log_help : Showing data information
+2022-05-27 00:11:51,269 : INFO : log_help : Showing data information
+2022-05-27 00:11:51,269 : INFO : log_help : Showing data information
+2022-05-27 00:12:51,399 : INFO : log_help : Colums with missing values: ['CompetitionDistance', 'CompetitionOpenSinceMonth', 'CompetitionOpenSinceYear', 'Promo2SinceWeek', 'Promo2SinceYear', 'PromoInterval']
+2022-05-27 00:12:51,399 : INFO : log_help : Colums with missing values: ['CompetitionDistance', 'CompetitionOpenSinceMonth', 'CompetitionOpenSinceYear', 'Promo2SinceWeek', 'Promo2SinceYear', 'PromoInterval']
+2022-05-27 00:12:51,399 : INFO : log_help : Colums with missing values: ['CompetitionDistance', 'CompetitionOpenSinceMonth', 'CompetitionOpenSinceYear', 'Promo2SinceWeek', 'Promo2SinceYear', 'PromoInterval']
+2022-05-27 00:12:51,399 : INFO : log_help : Colums with missing values: ['CompetitionDistance', 'CompetitionOpenSinceMonth', 'CompetitionOpenSinceYear', 'Promo2SinceWeek', 'Promo2SinceYear', 'PromoInterval']
+2022-05-27 00:12:55,635 : INFO : log_help : Colums with missing values: ['CompetitionDistance', 'CompetitionOpenSinceMonth', 'CompetitionOpenSinceYear', 'Promo2SinceWeek', 'Promo2SinceYear', 'PromoInterval']
+2022-05-27 00:12:55,635 : INFO : log_help : Colums with missing values: ['CompetitionDistance', 'CompetitionOpenSinceMonth', 'CompetitionOpenSinceYear', 'Promo2SinceWeek', 'Promo2SinceYear', 'PromoInterval']
+2022-05-27 00:12:55,635 : INFO : log_help : Colums with missing values: ['CompetitionDistance', 'CompetitionOpenSinceMonth', 'CompetitionOpenSinceYear', 'Promo2SinceWeek', 'Promo2SinceYear', 'PromoInterval']
+2022-05-27 00:12:55,635 : INFO : log_help : Colums with missing values: ['CompetitionDistance', 'CompetitionOpenSinceMonth', 'CompetitionOpenSinceYear', 'Promo2SinceWeek', 'Promo2SinceYear', 'PromoInterval']
+2022-05-27 00:12:59,835 : INFO : log_help : Colums with missing values: ['CompetitionDistance', 'CompetitionOpenSinceMonth', 'CompetitionOpenSinceYear', 'Promo2SinceWeek', 'Promo2SinceYear', 'PromoInterval']
+2022-05-27 00:12:59,835 : INFO : log_help : Colums with missing values: ['CompetitionDistance', 'CompetitionOpenSinceMonth', 'CompetitionOpenSinceYear', 'Promo2SinceWeek', 'Promo2SinceYear', 'PromoInterval']
+2022-05-27 00:12:59,835 : INFO : log_help : Colums with missing values: ['CompetitionDistance', 'CompetitionOpenSinceMonth', 'CompetitionOpenSinceYear', 'Promo2SinceWeek', 'Promo2SinceYear', 'PromoInterval']
+2022-05-27 00:12:59,835 : INFO : log_help : Colums with missing values: ['CompetitionDistance', 'CompetitionOpenSinceMonth', 'CompetitionOpenSinceYear', 'Promo2SinceWeek', 'Promo2SinceYear', 'PromoInterval']
+2022-05-27 00:13:27,081 : INFO : log_help : Showing missing percentage
+2022-05-27 00:13:27,081 : INFO : log_help : Showing missing percentage
+2022-05-27 00:13:27,081 : INFO : log_help : Showing missing percentage
+2022-05-27 00:13:27,081 : INFO : log_help : Showing missing percentage
+2022-05-27 00:31:03,374 : INFO : log_help : Showing missing percentage
+2022-05-27 00:31:03,374 : INFO : log_help : Showing missing percentage
+2022-05-27 00:31:03,374 : INFO : log_help : Showing missing percentage
+2022-05-27 00:31:03,374 : INFO : log_help : Showing missing percentage
+2022-05-27 00:31:41,068 : INFO : log_help : Showing missing percentage
+2022-05-27 00:31:41,068 : INFO : log_help : Showing missing percentage
+2022-05-27 00:31:41,068 : INFO : log_help : Showing missing percentage
+2022-05-27 00:31:41,068 : INFO : log_help : Showing missing percentage
+2022-05-27 00:40:04,893 : INFO : log_help : Colums with missing values: []
+2022-05-27 00:40:04,893 : INFO : log_help : Colums with missing values: []
+2022-05-27 00:40:04,893 : INFO : log_help : Colums with missing values: []
+2022-05-27 00:40:04,893 : INFO : log_help : Colums with missing values: []
+2022-05-27 00:59:31,528 : INFO : log_help : Outlier for Customers is fixed
+2022-05-27 00:59:31,528 : INFO : log_help : Outlier for Customers is fixed
+2022-05-27 00:59:31,528 : INFO : log_help : Outlier for Customers is fixed
+2022-05-27 00:59:31,528 : INFO : log_help : Outlier for Customers is fixed
+2022-05-27 00:59:31,528 : INFO : log_help : Outlier for Customers is fixed
+2022-05-27 00:59:31,705 : INFO : log_help : Outlier for Sales is fixed
+2022-05-27 00:59:31,705 : INFO : log_help : Outlier for Sales is fixed
+2022-05-27 00:59:31,705 : INFO : log_help : Outlier for Sales is fixed
+2022-05-27 00:59:31,705 : INFO : log_help : Outlier for Sales is fixed
+2022-05-27 00:59:31,705 : INFO : log_help : Outlier for Sales is fixed
+2022-05-27 01:34:38,030 : INFO : log_help : Showing data information
+2022-05-27 01:35:11,398 : INFO : log_help : Colums with missing values: ['CompetitionDistance', 'CompetitionOpenSinceMonth', 'CompetitionOpenSinceYear', 'Promo2SinceWeek', 'Promo2SinceYear', 'PromoInterval']
+2022-05-27 01:35:11,398 : INFO : log_help : Colums with missing values: ['CompetitionDistance', 'CompetitionOpenSinceMonth', 'CompetitionOpenSinceYear', 'Promo2SinceWeek', 'Promo2SinceYear', 'PromoInterval']
+2022-05-27 01:35:12,252 : INFO : log_help : Showing missing percentage
+2022-05-27 01:35:12,252 : INFO : log_help : Showing missing percentage
+2022-05-27 01:35:20,046 : INFO : log_help : Colums with missing values: []
+2022-05-27 01:35:20,046 : INFO : log_help : Colums with missing values: []
+2022-05-27 01:35:27,910 : INFO : log_help : Outlier for Customers is fixed
+2022-05-27 01:35:27,910 : INFO : log_help : Outlier for Customers is fixed
+2022-05-27 01:35:27,910 : INFO : log_help : Outlier for Customers is fixed
+2022-05-27 01:35:28,148 : INFO : log_help : Outlier for Sales is fixed
+2022-05-27 01:35:28,148 : INFO : log_help : Outlier for Sales is fixed
+2022-05-27 01:35:28,148 : INFO : log_help : Outlier for Sales is fixed
+2022-05-27 01:35:35,996 : INFO : log_help : Successfully Added WeekDay Column to the DataFrame
+2022-05-27 01:35:35,996 : INFO : log_help : Successfully Added WeekDay Column to the DataFrame
+2022-05-27 01:35:35,996 : INFO : log_help : Successfully Added WeekDay Column to the DataFrame
+2022-05-27 01:35:41,874 : INFO : log_help : Successfully Added DaysToHoliday Column
+2022-05-27 01:35:41,874 : INFO : log_help : Successfully Added DaysToHoliday Column
+2022-05-27 01:35:41,874 : INFO : log_help : Successfully Added DaysToHoliday Column
+2022-05-27 01:35:45,618 : INFO : log_help : Successfully Added DaysAfterHoliday Column
+2022-05-27 01:35:45,618 : INFO : log_help : Successfully Added DaysAfterHoliday Column
+2022-05-27 01:35:45,618 : INFO : log_help : Successfully Added DaysAfterHoliday Column
+2022-05-27 01:35:47,407 : INFO : log_help : Successfully Added MonthTiming Column
+2022-05-27 01:35:47,407 : INFO : log_help : Successfully Added MonthTiming Column
+2022-05-27 01:35:47,407 : INFO : log_help : Successfully Added MonthTiming Column
+2022-05-27 01:36:50,393 : INFO : log_help : Successfully Added Season Column
+2022-05-27 01:36:50,393 : INFO : log_help : Successfully Added Season Column
+2022-05-27 01:36:50,393 : INFO : log_help : Successfully Added Season Column
