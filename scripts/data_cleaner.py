@@ -1,5 +1,9 @@
+from xxlimited import Str
 import pandas as pd
 import numpy as np
+from log_help import App_Logger
+
+app_logger = App_Logger("../logs/data_cleaner.log").get_app_logger()
 
 
 class DataCleaner:
@@ -15,6 +19,8 @@ class DataCleaner:
         -------
         None
         """
+        self.logger = App_Logger(
+            "../logs/data_cleaner.log").get_app_logger()
         if(deep):
             self.df = df.copy(deep=True)
         else:
@@ -73,7 +79,6 @@ class DataCleaner:
 
             if(drop_date):
                 self.df = self.df.drop(date_column, axis=1)
-
         except:
             print("Failed to separate the date to its components")
 
@@ -82,6 +87,8 @@ class DataCleaner:
             self.df[col_name] = pd.to_datetime(self.df[col_name])
         except:
             print('failed to change column to Date Type')
+        self.logger.info(
+            f"Successfully changed column {col_name} to Date Type")
 
     def remove_nulls(self) -> pd.DataFrame:
         return self.df.dropna()
@@ -105,6 +112,7 @@ class DataCleaner:
 
         except:
             print("Failed to add season column")
+        self.logger.info(f"Successfully added season column to {month_col}")
 
     def change_columns_type_to(self, cols: list, data_type: str) -> pd.DataFrame:
         """
@@ -125,7 +133,7 @@ class DataCleaner:
                 self.df[col] = self.df[col].astype(data_type)
         except:
             print('Failed to change columns type')
-
+        self.logger.info(f"Successfully changed columns type to {data_type}")
         return self.df
 
     def remove_single_value_columns(self, unique_value_counts: pd.DataFrame) -> pd.DataFrame:
@@ -284,23 +292,6 @@ class DataCleaner:
 
         return self.df
 
-    def fix_outlier(self, column: str) -> pd.DataFrame:
-        """
-        Returns a DataFrame where outlier of the specified column is fixed
-        Parameters
-        ----------
-        column:
-            Type: str
-
-        Returns
-        -------
-        pd.DataFrame
-        """
-        self.df[column] = np.where(self.df[column] > self.df[column].quantile(
-            0.95), self.df[column].median(), self.df[column])
-
-        return self.df
-
     def fix_outlier_columns(self, columns: list) -> pd.DataFrame:
         """
         Returns a DataFrame where outlier of the specified columns is fixed
@@ -320,7 +311,24 @@ class DataCleaner:
         except:
             print("Cant fix outliers for each column")
 
-        return self.df
+    def replace_outlier_with_median(self, dataFrame: pd.DataFrame, feature: Str) -> pd.DataFrame:
+
+        Q1 = dataFrame[feature].quantile(0.25)
+        Q3 = dataFrame[feature].quantile(0.75)
+        median = dataFrame[feature].quantile(0.50)
+
+        IQR = Q3 - Q1
+
+        upper_whisker = Q3 + (1.5 * IQR)
+        lower_whisker = Q1 - (1.5 * IQR)
+
+        dataFrame[feature] = np.where(
+            dataFrame[feature] > upper_whisker, median, dataFrame[feature])
+        dataFrame[feature] = np.where(
+            dataFrame[feature] < lower_whisker, median, dataFrame[feature])
+        self.logger.info(f"Outlier for {feature} is fixed")
+
+        return dataFrame
 
     def standardized_column(self, columns: list, new_name: list, func) -> pd.DataFrame:
         """
@@ -343,13 +351,12 @@ class DataCleaner:
             for index, col in enumerate(columns):
                 self.df[col] = func(self.df[col])
                 self.df.rename(columns={col: new_name[index]}, inplace=True)
-
+            self.logger.info(f"Columns are standardized")
         except AssertionError:
             print('size of columns and names provided is not equal')
 
         except:
             print('standardization failed')
-
         return self.df
 
     def optimize_df(self) -> pd.DataFrame:
@@ -376,7 +383,7 @@ class DataCleaner:
                         # downcasting an integer column
                         self.df[col] = pd.to_numeric(
                             self.df[col], downcast='unsigned')
-
+            self.logger.info(f"DataFrame optimized")
             return self.df
 
         except:
@@ -396,6 +403,6 @@ class DataCleaner:
         """
         try:
             self.df.to_csv(name, index=False)
-
+            self.logger.info(f"DataFrame saved")
         except:
             print("Failed to save data")
