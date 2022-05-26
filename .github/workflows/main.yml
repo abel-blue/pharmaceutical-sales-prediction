@@ -1,9 +1,8 @@
-name: main
+name: unit-tests
 on:
   push:
     branches:
       - main
-      - unit_tests
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
