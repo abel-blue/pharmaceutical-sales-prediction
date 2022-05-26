@@ -1,17 +1,23 @@
 
+
+from log_help import App_Logger
 import pandas as pd
 import numpy as np
-from log_help import App_Logger
+import sys
+import os
+sys.path.insert(0, '../scripts/')
+sys.path.append(os.path.abspath(os.path.join('..')))
 
-app_logger = App_Logger("../logs/data_preProcessing.log").get_app_logger()
+
+app_logger = App_Logger("logs/data_preProcessing.log").get_app_logger()
 
 
 class data_preProcessing_script:
 
     def __init__(self, df: pd.DataFrame) -> None:
-        self.logger = App_Logger(
-            "../logs/data_preProcessing.log").get_app_logger()
         self.df = df
+        self.logger = App_Logger(
+            "logs/data_preProcessing.log").get_app_logger()
 
     def drop_duplicates(self) -> pd.DataFrame:
         droped = self.df[self.df.duplicated()].index
