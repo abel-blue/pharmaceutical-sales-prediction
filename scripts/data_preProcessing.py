@@ -6,7 +6,6 @@ import os
 sys.path.insert(0, '../scripts/')
 sys.path.insert(0, '../logs/')
 sys.path.append(os.path.abspath(os.path.join('..')))
-
 from log_help import App_Logger
 
 
