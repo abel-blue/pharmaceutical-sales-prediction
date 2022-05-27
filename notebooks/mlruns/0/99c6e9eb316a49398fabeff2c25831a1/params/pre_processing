@@ -1,0 +1,5 @@
+ColumnTransformer(remainder='passthrough',
+                  transformers=[('impute_competitionDistance',
+                                 SimpleImputer(strategy='median'),
+                                 ['CompetitionDistance']),
+               ...

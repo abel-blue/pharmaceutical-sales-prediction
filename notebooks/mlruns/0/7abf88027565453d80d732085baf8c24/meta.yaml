@@ -1,0 +1,15 @@
+artifact_uri: file:///home/abel-ubuntu/workspace/pharmaceutical-sales-prediction/notebooks/mlruns/0/7abf88027565453d80d732085baf8c24/artifacts
+end_time: 1653672726071
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 7abf88027565453d80d732085baf8c24
+run_uuid: 7abf88027565453d80d732085baf8c24
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1653672396614
+status: 3
+tags: []
+user_id: abel-ubuntu
