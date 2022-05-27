@@ -1,4 +1,0 @@
-[('Data scaling', StandardScaler()), ('pre_processing', ColumnTransformer(remainder='passthrough',
-                  transformers=[('impute_competitionDistance',
-                                 SimpleImputer(strategy='median'),
-                  ...

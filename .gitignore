@@ -170,3 +170,4 @@ data/train.csv
 data/.~lock.train.csv#
 data/train_store.csv
 data/test_store.csv
+notebooks/mlruns/

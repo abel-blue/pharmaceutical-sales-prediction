@@ -1,1 +1,0 @@
-[('Data scaling', StandardScaler()), ('random_forest', RandomForestRegressor(max_depth=10, random_state=2))]
