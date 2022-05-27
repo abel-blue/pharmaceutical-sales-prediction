@@ -627,3 +627,29 @@
 2022-05-27 01:35:47,407 : INFO : log_help : Successfully Added MonthTiming Column
 2022-05-27 01:36:50,393 : INFO : log_help : Successfully Added Season Column
 2022-05-27 01:36:50,393 : INFO : log_help : Successfully Added Season Column
+2022-05-27 03:21:28,997 : INFO : log_help : Showing data information
+2022-05-27 03:21:28,997 : INFO : log_help : Showing data information
+2022-05-27 03:22:19,876 : INFO : log_help : Showing data information
+2022-05-27 03:22:19,876 : INFO : log_help : Showing data information
+2022-05-27 03:22:29,289 : INFO : log_help : Colums with missing values: ['CompetitionDistance', 'CompetitionOpenSinceMonth', 'CompetitionOpenSinceYear', 'Promo2SinceWeek', 'Promo2SinceYear', 'PromoInterval']
+2022-05-27 03:22:29,289 : INFO : log_help : Colums with missing values: ['CompetitionDistance', 'CompetitionOpenSinceMonth', 'CompetitionOpenSinceYear', 'Promo2SinceWeek', 'Promo2SinceYear', 'PromoInterval']
+2022-05-27 03:22:30,997 : INFO : log_help : Showing missing percentage
+2022-05-27 03:22:30,997 : INFO : log_help : Showing missing percentage
+2022-05-27 03:22:42,727 : INFO : log_help : Showing missing percentage
+2022-05-27 03:22:42,727 : INFO : log_help : Showing missing percentage
+2022-05-27 03:22:47,989 : INFO : log_help : Colums with missing values: []
+2022-05-27 03:22:47,989 : INFO : log_help : Colums with missing values: []
+2022-05-27 03:23:22,959 : INFO : log_help : Outlier for Customers is fixed
+2022-05-27 03:23:22,959 : INFO : log_help : Outlier for Customers is fixed
+2022-05-27 03:23:23,184 : INFO : log_help : Outlier for Sales is fixed
+2022-05-27 03:23:23,184 : INFO : log_help : Outlier for Sales is fixed
+2022-05-27 03:23:30,516 : INFO : log_help : Successfully Added WeekDay Column to the DataFrame
+2022-05-27 03:23:30,516 : INFO : log_help : Successfully Added WeekDay Column to the DataFrame
+2022-05-27 03:23:32,777 : INFO : log_help : Successfully Added DaysToHoliday Column
+2022-05-27 03:23:32,777 : INFO : log_help : Successfully Added DaysToHoliday Column
+2022-05-27 03:23:34,647 : INFO : log_help : Successfully Added DaysAfterHoliday Column
+2022-05-27 03:23:34,647 : INFO : log_help : Successfully Added DaysAfterHoliday Column
+2022-05-27 03:23:36,128 : INFO : log_help : Successfully Added MonthTiming Column
+2022-05-27 03:23:36,128 : INFO : log_help : Successfully Added MonthTiming Column
+2022-05-27 03:23:46,769 : INFO : log_help : Successfully Added Season Column
+2022-05-27 03:23:46,769 : INFO : log_help : Successfully Added Season Column
