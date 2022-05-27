@@ -653,3 +653,36 @@
 2022-05-27 03:23:36,128 : INFO : log_help : Successfully Added MonthTiming Column
 2022-05-27 03:23:46,769 : INFO : log_help : Successfully Added Season Column
 2022-05-27 03:23:46,769 : INFO : log_help : Successfully Added Season Column
+2022-05-28 00:56:10,251 : INFO : log_help : Colums with missing values: ['floats']
+2022-05-28 00:56:10,251 : INFO : log_help : Colums with missing values: ['floats']
+2022-05-28 00:56:10,251 : INFO : log_help : Colums with missing values: ['floats']
+2022-05-28 00:56:10,274 : INFO : log_help : Converted to numbers
+2022-05-28 00:56:10,274 : INFO : log_help : Converted to numbers
+2022-05-28 00:56:10,274 : INFO : log_help : Converted to numbers
+2022-05-28 00:56:10,274 : INFO : log_help : Converted to numbers
+2022-05-28 00:56:10,276 : INFO : log_help : Showing coloumn names
+2022-05-28 00:56:10,276 : INFO : log_help : Showing coloumn names
+2022-05-28 00:56:10,276 : INFO : log_help : Showing coloumn names
+2022-05-28 00:56:10,276 : INFO : log_help : Showing coloumn names
+2022-05-28 00:56:10,276 : INFO : log_help : Showing coloumn names
+2022-05-28 00:56:10,321 : INFO : log_help : Dropped duplicates: Int64Index([], dtype='int64')
+2022-05-28 00:56:10,321 : INFO : log_help : Dropped duplicates: Int64Index([], dtype='int64')
+2022-05-28 00:56:10,321 : INFO : log_help : Dropped duplicates: Int64Index([], dtype='int64')
+2022-05-28 00:56:10,321 : INFO : log_help : Dropped duplicates: Int64Index([], dtype='int64')
+2022-05-28 00:56:10,321 : INFO : log_help : Dropped duplicates: Int64Index([], dtype='int64')
+2022-05-28 00:56:10,321 : INFO : log_help : Dropped duplicates: Int64Index([], dtype='int64')
+2022-05-28 00:56:10,324 : INFO : log_help : Showing data information
+2022-05-28 00:56:10,324 : INFO : log_help : Showing data information
+2022-05-28 00:56:10,324 : INFO : log_help : Showing data information
+2022-05-28 00:56:10,324 : INFO : log_help : Showing data information
+2022-05-28 00:56:10,324 : INFO : log_help : Showing data information
+2022-05-28 00:56:10,324 : INFO : log_help : Showing data information
+2022-05-28 00:56:10,324 : INFO : log_help : Showing data information
+2022-05-28 00:56:10,437 : INFO : log_help : Showing datatypes
+2022-05-28 00:56:10,437 : INFO : log_help : Showing datatypes
+2022-05-28 00:56:10,437 : INFO : log_help : Showing datatypes
+2022-05-28 00:56:10,437 : INFO : log_help : Showing datatypes
+2022-05-28 00:56:10,437 : INFO : log_help : Showing datatypes
+2022-05-28 00:56:10,437 : INFO : log_help : Showing datatypes
+2022-05-28 00:56:10,437 : INFO : log_help : Showing datatypes
+2022-05-28 00:56:10,437 : INFO : log_help : Showing datatypes
