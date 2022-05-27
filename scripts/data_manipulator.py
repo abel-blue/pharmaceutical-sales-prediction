@@ -3,11 +3,12 @@ from sklearn.preprocessing import MinMaxScaler, Normalizer, StandardScaler, Labe
 from datetime import datetime
 import sys, os
 sys.path.append(os.path.abspath(os.path.join('..')))
-from scripts.logger_creator import CreateLogger
+sys.path.insert(0, '../scripts/')
+sys.path.insert(0, '../logs/')
 
-logger = CreateLogger('Data Manipulatior', handlers=1)
-logger = logger.get_default_logger()
+from log_help import App_Logger
 
+app_logger = App_Logger("../logs/data_manipulator.log").get_app_logger()
 
 class DataManipulator:
     def __init__(self, df: pd.DataFrame, deep=False):
@@ -22,6 +23,8 @@ class DataManipulator:
             -------
             None
         """
+        self.logger = App_Logger(
+            "../logs/data_manipulator.log").get_app_logger()
         if(deep):
             self.df = df.copy(deep=True)
         else:
@@ -33,10 +36,10 @@ class DataManipulator:
             self.df.insert(date_index + 1, 'WeekDay',
                            self.df[day_of_week_col].apply(lambda x: 1 if x <= 5 else 0))
 
-            logger.info("Successfully Added WeekDay Column to the DataFrame")
+            self.logger.info("Successfully Added WeekDay Column to the DataFrame")
 
         except Exception as e:
-            logger.exception("Failed to Add WeekDay Column")
+            self.logger.exception("Failed to Add WeekDay Column")
 
     def add_week_ends(self, day_of_week_col: str) -> pd.DataFrame:
         try:
@@ -44,10 +47,10 @@ class DataManipulator:
             self.df.insert(date_index + 1, 'WeekEnd',
                            self.df[day_of_week_col].apply(lambda x: 1 if x > 5 else 0))
 
-            logger.info("Successfully Added WeekEnd Column to the DataFrame")
+            self.logger.info("Successfully Added WeekEnd Column to the DataFrame")
 
         except Exception as e:
-            logger.exception("Failed to Add WeekEnd Column")
+            self.logger.exception("Failed to Add WeekEnd Column")
 
     # Considering christmas lasts for 12 days, Easter for 50 days and public holidays for 1 day.
     # And considering before and after periods to be 5 less and 5 more days before and after the holiday for christmas
@@ -114,10 +117,10 @@ class DataManipulator:
             self.df.insert(date_index + 1, 'DaysToHoliday',
                            days_to_holiday_index)
 
-            logger.info("Successfully Added DaysToHoliday Column")
+            self.logger.info("Successfully Added DaysToHoliday Column")
 
         except Exception as e:
-            logger.exception("Failed to Add DaysToHoliday Column")
+            self.logger.exception("Failed to Add DaysToHoliday Column")
 
     def add_number_of_days_after_holiday(self, state_holiday_col: str):
         try:
@@ -149,10 +152,10 @@ class DataManipulator:
             self.df.insert(date_index + 1, 'DaysAfterHoliday',
                            days_to_after_holiday_index[:-1])
 
-            logger.info("Successfully Added DaysAfterHoliday Column")
+            self.logger.info("Successfully Added DaysAfterHoliday Column")
 
         except Exception as e:
-            logger.exception("Failed to Add DaysAfterHoliday Column")
+            self.logger.exception("Failed to Add DaysAfterHoliday Column")
 
     def return_day_status_in_month(self, day: int) -> int:
         # conside 1 is beginning of month, 2 is middle of the month and 3 is end of the month
@@ -169,10 +172,10 @@ class DataManipulator:
             self.df.insert(date_index + 1, 'MonthTiming',
                            self.df[day_col].apply(self.return_day_status_in_month))
 
-            logger.info("Successfully Added MonthTiming Column")
+            self.logger.info("Successfully Added MonthTiming Column")
 
         except Exception as e:
-            logger.exception("Failed to Add MonthTiming Column")
+            self.logger.exception("Failed to Add MonthTiming Column")
 
     def get_season(self, month: int):
         if(month <= 2 or month == 12):
@@ -190,10 +193,10 @@ class DataManipulator:
             self.df.insert(date_index + 1, 'Season',
                            self.df[month_col].apply(self.get_season))
 
-            logger.info("Successfully Added Season Column")
+            self.logger.info("Successfully Added Season Column")
 
         except Exception as e:
-            logger.exception("Failed to Add Season Column")
+            self.logger.exception("Failed to Add Season Column")
 
     def sort_using_column(self, column: str) -> pd.DataFrame:
         """
