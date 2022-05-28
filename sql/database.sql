@@ -1,10 +1,24 @@
 
-CREATE TABLE IF NOT EXISTS `score_table` 
+CREATE TABLE IF NOT EXISTS `TB` 
 (
-    'user_id': 'FLOAT NOT NULL',
-    'engagement_score': 'INT NOT NULL',
-    'experience_score': 'INT NOT NULL',
-    'satisfaction_score': 'INT DEFAULT NULL',
-    PRIMARY KEY (`user_id`)
+    'Store': 'INT NOT NULL',
+    'DayOfWeek': 'INT NOT NULL',
+    'DayOfWeek': 'DATETIME NOT NULL',
+    'Sales': 'FLOAT NOT NULL',
+    'Open': 'INT DEFAULT NULL',
+    'Promo': 'INT DEFAULT NULL',
+    'StateHoliday': 'INT DEFAULT NULL',
+    'SchoolHoliday': 'INT DEFAULT NULL',
+    'StoreType': 'INT DEFAULT NULL',
+    'Assortment': 'VARCHAR(10) DEFAULT NULL',
+    'CompetitionDistance': 'FLOAT DEFAULT NULL',
+    'CompetitionOpenSinceMonth': 'INT DEFAULT NULL',
+    'CompetitionOpenSinceYear': 'INT DEFAULT NULL',
+    'Promo2': 'INT DEFAULT NULL',
+    'Promo2SinceWeek': 'INT DEFAULT NULL',
+    'Promo2SinceYear': 'INT DEFAULT NULL',
+    'PromoInterval': 'VARCHAR(40) DEFAULT NULL',
+    PRIMARY KEY (`Store`)
 )
 ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE utf8mb4_unicode_ci;
+

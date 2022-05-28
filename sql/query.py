@@ -51,8 +51,9 @@ def insert_to_tweet_table(dbName: str, df: pd.DataFrame, table_name: str) -> Non
     conn, cur = DBConnect(dbName)
     for _, row in df.iterrows():
 
-        sqlQuery = f"""INSERT INTO {table_name} (user_id, engagement_score, experience_score, satisfaction_score)
-             VALUES(%s, %s, %s, %s);"""
+        sqlQuery = f"""INSERT INTO {table_name} (Store, DayOfWeek, Sales, Open, Promo, StateHoliday, SchoolHoliday, StoreType, Assortment, CompetitionDistance, CompetitionOpenSinceMonth, CompetitionOpenSinceYear, Promo2, Promo2SinceWeek, Promo2SinceYear, PromoInterval)
+        VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);"""
+
         data = (row[0], row[1], row[2], row[3])
 
         try:
@@ -88,7 +89,7 @@ if __name__ == "__main__":
     createDB(dbName='score_db')
     emojiDB(dbName='score_db')
     createTables(dbName='score_db')
-    df = pd.read_csv('../data/score_table.csv')
+    df = pd.read_csv('../data/train_store.csv')
     df.info()
     insert_to_tweet_table(dbName='score_db', df=df,
-                          table_name='score_table')
+                          table_name='TB')
