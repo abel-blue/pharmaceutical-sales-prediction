@@ -37,9 +37,10 @@ if __name__ == "__main__":
     repo = 'https://github.com/Abel-Blue/pharmaceutical-sales-prediction'
     rev = 'v3-scaled'
     data_url = dvc.api.get_url(path=path, repo=repo, rev=rev)
+    scaled = pd.read_csv('data/train_store.csv')
 
     try:
-        scaled = pd.read_csv(data_url)
+        scaled = pd.read_csv('data/train_store.csv')
     except Exception as e:
         logger.exception(
             "Unable to download training & test CSV, check your internet connection. Error: %s", e
