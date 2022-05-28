@@ -1,11 +1,6 @@
-# The data set used in this example is from http://archive.ics.uci.edu/ml/datasets/Wine+Quality
-# P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis.
-# Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009.
-
 import os
 import warnings
 import sys
-
 import pandas as pd
 import numpy as np
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
@@ -14,11 +9,14 @@ from sklearn.linear_model import ElasticNet
 from urllib.parse import urlparse
 import mlflow
 import mlflow.sklearn
-
+from sklearn.ensemble import RandomForestRegressor
+import dvc.api
 import logging
 
 logging.basicConfig(level=logging.WARN)
 logger = logging.getLogger(__name__)
+
+# evaluation metrics function
 
 
 def eval_metrics(actual, pred):
@@ -28,52 +26,61 @@ def eval_metrics(actual, pred):
     return rmse, mae, r2
 
 
+# excusion starts from here
 if __name__ == "__main__":
     warnings.filterwarnings("ignore")
     np.random.seed(40)
 
-    # Read the wine-quality csv file from the URL
-    csv_url = (
-        "http://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv"
-    )
+    # Importing the collected Data from dvc
+    # tag version is v3-scaled
+    path = 'data/train_store.csv'
+    repo = 'https://github.com/Abel-Blue/pharmaceutical-sales-prediction'
+    rev = 'v3-scaled'
+    data_url = dvc.api.get_url(path=path, repo=repo, rev=rev)
+
     try:
-        data = pd.read_csv(csv_url, sep=";")
+        scaled = pd.read_csv(data_url)
     except Exception as e:
         logger.exception(
             "Unable to download training & test CSV, check your internet connection. Error: %s", e
         )
 
     # Split the data into training and test sets. (0.75, 0.25) split.
-    train, test = train_test_split(data)
+    train, test = train_test_split(scaled)
 
+    # separate the independent and target variable
     # The predicted column is "quality" which is a scalar from [3, 9]
-    train_x = train.drop(["quality"], axis=1)
-    test_x = test.drop(["quality"], axis=1)
-    train_y = train[["quality"]]
-    test_y = test[["quality"]]
+    train_x = train.drop(['Customers', 'Sales', 'SalesPerCustomer'], axis=1)
+    test_x = test.drop(['Customers', 'Sales', 'SalesPerCustomer'], axis=1)
+    train_y = train[['Sales']]
+    test_y = test[['Sales']]
 
     alpha = float(sys.argv[1]) if len(sys.argv) > 1 else 0.5
     l1_ratio = float(sys.argv[2]) if len(sys.argv) > 2 else 0.5
 
     with mlflow.start_run():
-        lr = ElasticNet(alpha=alpha, l1_ratio=l1_ratio, random_state=42)
+
+        # Random Forest model
+        lr = RandomForestRegressor(max_depth=10, random_state=42)
         lr.fit(train_x, train_y)
 
+        # predicted values
         predicted_qualities = lr.predict(test_x)
 
+        # evaluate the model by using the metrics
         (rmse, mae, r2) = eval_metrics(test_y, predicted_qualities)
 
-        print("Elasticnet model (alpha=%f, l1_ratio=%f):" % (alpha, l1_ratio))
+        # print out the evaluation metrics
         print("  RMSE: %s" % rmse)
         print("  MAE: %s" % mae)
         print("  R2: %s" % r2)
 
-        mlflow.log_param("alpha", alpha)
-        mlflow.log_param("l1_ratio", l1_ratio)
+        # log parameters, metrics, and artifacts
         mlflow.log_metric("rmse", rmse)
         mlflow.log_metric("r2", r2)
         mlflow.log_metric("mae", mae)
 
+        # log the model
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
 
         # Model registry does not work with file store
@@ -84,6 +91,6 @@ if __name__ == "__main__":
             # please refer to the doc for more information:
             # https://mlflow.org/docs/latest/model-registry.html#api-workflow
             mlflow.sklearn.log_model(
-                lr, "model", registered_model_name="ElasticnetWineModel")
+                lr, "model", registered_model_name="RandomForestRegressor")
         else:
             mlflow.sklearn.log_model(lr, "model")
