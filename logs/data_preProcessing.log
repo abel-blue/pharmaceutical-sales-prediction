@@ -719,3 +719,36 @@
 2022-05-28 16:43:40,516 : INFO : log_help : Showing datatypes
 2022-05-28 16:43:40,516 : INFO : log_help : Showing datatypes
 2022-05-28 16:43:40,516 : INFO : log_help : Showing datatypes
+2022-05-29 02:19:58,727 : INFO : log_help : Colums with missing values: ['floats']
+2022-05-29 02:19:58,727 : INFO : log_help : Colums with missing values: ['floats']
+2022-05-29 02:19:58,727 : INFO : log_help : Colums with missing values: ['floats']
+2022-05-29 02:19:58,744 : INFO : log_help : Converted to numbers
+2022-05-29 02:19:58,744 : INFO : log_help : Converted to numbers
+2022-05-29 02:19:58,744 : INFO : log_help : Converted to numbers
+2022-05-29 02:19:58,744 : INFO : log_help : Converted to numbers
+2022-05-29 02:19:58,744 : INFO : log_help : Showing coloumn names
+2022-05-29 02:19:58,744 : INFO : log_help : Showing coloumn names
+2022-05-29 02:19:58,744 : INFO : log_help : Showing coloumn names
+2022-05-29 02:19:58,744 : INFO : log_help : Showing coloumn names
+2022-05-29 02:19:58,744 : INFO : log_help : Showing coloumn names
+2022-05-29 02:19:58,773 : INFO : log_help : Dropped duplicates: Int64Index([], dtype='int64')
+2022-05-29 02:19:58,773 : INFO : log_help : Dropped duplicates: Int64Index([], dtype='int64')
+2022-05-29 02:19:58,773 : INFO : log_help : Dropped duplicates: Int64Index([], dtype='int64')
+2022-05-29 02:19:58,773 : INFO : log_help : Dropped duplicates: Int64Index([], dtype='int64')
+2022-05-29 02:19:58,773 : INFO : log_help : Dropped duplicates: Int64Index([], dtype='int64')
+2022-05-29 02:19:58,773 : INFO : log_help : Dropped duplicates: Int64Index([], dtype='int64')
+2022-05-29 02:19:58,776 : INFO : log_help : Showing data information
+2022-05-29 02:19:58,776 : INFO : log_help : Showing data information
+2022-05-29 02:19:58,776 : INFO : log_help : Showing data information
+2022-05-29 02:19:58,776 : INFO : log_help : Showing data information
+2022-05-29 02:19:58,776 : INFO : log_help : Showing data information
+2022-05-29 02:19:58,776 : INFO : log_help : Showing data information
+2022-05-29 02:19:58,776 : INFO : log_help : Showing data information
+2022-05-29 02:19:58,822 : INFO : log_help : Showing datatypes
+2022-05-29 02:19:58,822 : INFO : log_help : Showing datatypes
+2022-05-29 02:19:58,822 : INFO : log_help : Showing datatypes
+2022-05-29 02:19:58,822 : INFO : log_help : Showing datatypes
+2022-05-29 02:19:58,822 : INFO : log_help : Showing datatypes
+2022-05-29 02:19:58,822 : INFO : log_help : Showing datatypes
+2022-05-29 02:19:58,822 : INFO : log_help : Showing datatypes
+2022-05-29 02:19:58,822 : INFO : log_help : Showing datatypes
