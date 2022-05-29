@@ -24,4 +24,4 @@ cache:
   - pip
 # Command to run tests, e.g. python setup.py test
 script:
-  - python -m unittest tests.test_data_preProcessing
+  - python -m unittest tests.test_prePro
