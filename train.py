@@ -34,10 +34,10 @@ if __name__ == "__main__":
 
     # Importing the collected Data from dvc
     # tag version is v3-scaled
-    # path = 'data/train_store.csv'
-    # repo = 'https://github.com/Abel-Blue/pharmaceutical-sales-prediction'
-    # rev = 'v3-scaled'
-    # data_url = dvc.api.get_url(path=path, repo=repo, rev=rev)
+    path = 'data/train_store.csv'
+    repo = 'https://github.com/Abel-Blue/pharmaceutical-sales-prediction'
+    rev = 'v3-scaled'
+    data_url = dvc.api.get_url(path=path, repo=repo, rev=rev)
 
     try:
         scaled = pd.read_csv("models/test.csv")
@@ -89,6 +89,7 @@ if __name__ == "__main__":
         date = datetime.now()
         date = date.strftime("%A-%B-%Y : %I-%M-%S %p")
 
+        # writing cml report on results.txt data
         with open('results.txt', 'w') as file:
             file.write(f'Date:\n\t{date}\n')
             file.write('Metrics:\n')
