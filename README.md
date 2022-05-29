@@ -23,18 +23,19 @@
 
 ## Table of Contents
 
-- [Rossmann-Pharmaceuticals-Sales-Prediction](#pharmaceutical-sales-prediction)
+* [Rossmann-Pharmaceuticals-Sales-Prediction](#pharmaceutical-sales-prediction)
+
   - [Introduction](##Introduction)
   - [Project Structure](#project-structure)
-    - [data:](#data)
-    - [models:](#models)
-    - [notebooks:](#notebooks)
-    - [scripts](#scripts)
-    - [sql](#sql)
-    - [tests:](#tests)
-    - [logs:](#logs)
-    - [root folder:](#root-folder)
-    - [Installation guide:](#installation-guide)
+    * [data](#data)
+    * [models](#models)
+    * [notebooks](#notebooks)
+    * [scripts](#scripts)
+    * [sql](#sql)
+    * [tests](#tests)
+    * [logs](#logs)
+    * [root folder](#root-folder)
+  - [Installation guide](#installation-guide)
 
 ## Introduction
 
