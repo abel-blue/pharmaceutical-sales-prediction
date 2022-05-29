@@ -11,6 +11,7 @@ import mlflow
 import mlflow.sklearn
 from sklearn.ensemble import RandomForestRegressor
 import dvc.api
+from datetime import datetime
 import logging
 
 logging.basicConfig(level=logging.WARN)
@@ -33,13 +34,13 @@ if __name__ == "__main__":
 
     # Importing the collected Data from dvc
     # tag version is v3-scaled
-    path = 'data/train_store.csv'
-    repo = 'https://github.com/Abel-Blue/pharmaceutical-sales-prediction'
-    rev = 'v3-scaled'
-    data_url = dvc.api.get_url(path=path, repo=repo, rev=rev)
+    # path = 'data/train_store.csv'
+    # repo = 'https://github.com/Abel-Blue/pharmaceutical-sales-prediction'
+    # rev = 'v3-scaled'
+    # data_url = dvc.api.get_url(path=path, repo=repo, rev=rev)
 
     try:
-        scaled = pd.read_csv(data_url)
+        scaled = pd.read_csv("models/test.csv")
     except Exception as e:
         logger.exception(
             "Unable to download training & test CSV, check your internet connection. Error: %s", e
@@ -84,6 +85,17 @@ if __name__ == "__main__":
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
 
         # Model registry does not work with file store
+
+        date = datetime.now()
+        date = date.strftime("%A-%B-%Y : %I-%M-%S %p")
+
+        with open('results.txt', 'w') as file:
+            file.write(f'Date:\n\t{date}\n')
+            file.write('Metrics:\n')
+            file.write(f'RMSE:\n\t{rmse}\n')
+            file.write(f'R2Error:\n\t{r2}\n')
+            file.write(f'MAE:\n\t{mae}\n')
+
         if tracking_url_type_store != "file":
 
             # Register the model
