@@ -1,6 +1,4 @@
 
-from multiapp import MultiApp
-from applications import visualizations, viz_model
 import os
 import sys
 import streamlit as st
@@ -9,6 +7,9 @@ sys.path.insert(0, './scripts')
 
 
 st.set_page_config(page_title="Rossmann Sales Predictions", layout="wide")
+
+from multiapp import MultiApp
+from applications import visualizations, viz_model
 
 app = MultiApp()
 
