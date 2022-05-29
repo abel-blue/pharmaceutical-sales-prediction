@@ -752,3 +752,135 @@
 2022-05-29 02:19:58,822 : INFO : log_help : Showing datatypes
 2022-05-29 02:19:58,822 : INFO : log_help : Showing datatypes
 2022-05-29 02:19:58,822 : INFO : log_help : Showing datatypes
+2022-05-29 03:42:51,755 : INFO : log_help : Colums with missing values: ['floats']
+2022-05-29 03:42:51,755 : INFO : log_help : Colums with missing values: ['floats']
+2022-05-29 03:42:51,755 : INFO : log_help : Colums with missing values: ['floats']
+2022-05-29 03:42:51,760 : INFO : log_help : Converted to numbers
+2022-05-29 03:42:51,760 : INFO : log_help : Converted to numbers
+2022-05-29 03:42:51,760 : INFO : log_help : Converted to numbers
+2022-05-29 03:42:51,760 : INFO : log_help : Converted to numbers
+2022-05-29 03:42:51,761 : INFO : log_help : Showing coloumn names
+2022-05-29 03:42:51,761 : INFO : log_help : Showing coloumn names
+2022-05-29 03:42:51,761 : INFO : log_help : Showing coloumn names
+2022-05-29 03:42:51,761 : INFO : log_help : Showing coloumn names
+2022-05-29 03:42:51,761 : INFO : log_help : Showing coloumn names
+2022-05-29 03:42:51,779 : INFO : log_help : Dropped duplicates: Int64Index([], dtype='int64')
+2022-05-29 03:42:51,779 : INFO : log_help : Dropped duplicates: Int64Index([], dtype='int64')
+2022-05-29 03:42:51,779 : INFO : log_help : Dropped duplicates: Int64Index([], dtype='int64')
+2022-05-29 03:42:51,779 : INFO : log_help : Dropped duplicates: Int64Index([], dtype='int64')
+2022-05-29 03:42:51,779 : INFO : log_help : Dropped duplicates: Int64Index([], dtype='int64')
+2022-05-29 03:42:51,779 : INFO : log_help : Dropped duplicates: Int64Index([], dtype='int64')
+2022-05-29 03:42:51,781 : INFO : log_help : Showing data information
+2022-05-29 03:42:51,781 : INFO : log_help : Showing data information
+2022-05-29 03:42:51,781 : INFO : log_help : Showing data information
+2022-05-29 03:42:51,781 : INFO : log_help : Showing data information
+2022-05-29 03:42:51,781 : INFO : log_help : Showing data information
+2022-05-29 03:42:51,781 : INFO : log_help : Showing data information
+2022-05-29 03:42:51,781 : INFO : log_help : Showing data information
+2022-05-29 03:42:51,824 : INFO : log_help : Showing datatypes
+2022-05-29 03:42:51,824 : INFO : log_help : Showing datatypes
+2022-05-29 03:42:51,824 : INFO : log_help : Showing datatypes
+2022-05-29 03:42:51,824 : INFO : log_help : Showing datatypes
+2022-05-29 03:42:51,824 : INFO : log_help : Showing datatypes
+2022-05-29 03:42:51,824 : INFO : log_help : Showing datatypes
+2022-05-29 03:42:51,824 : INFO : log_help : Showing datatypes
+2022-05-29 03:42:51,824 : INFO : log_help : Showing datatypes
+2022-05-29 03:48:57,751 : INFO : log_help : Colums with missing values: ['floats']
+2022-05-29 03:48:57,751 : INFO : log_help : Colums with missing values: ['floats']
+2022-05-29 03:48:57,751 : INFO : log_help : Colums with missing values: ['floats']
+2022-05-29 03:48:57,757 : INFO : log_help : Converted to numbers
+2022-05-29 03:48:57,757 : INFO : log_help : Converted to numbers
+2022-05-29 03:48:57,757 : INFO : log_help : Converted to numbers
+2022-05-29 03:48:57,757 : INFO : log_help : Converted to numbers
+2022-05-29 03:48:57,760 : INFO : log_help : Showing coloumn names
+2022-05-29 03:48:57,760 : INFO : log_help : Showing coloumn names
+2022-05-29 03:48:57,760 : INFO : log_help : Showing coloumn names
+2022-05-29 03:48:57,760 : INFO : log_help : Showing coloumn names
+2022-05-29 03:48:57,760 : INFO : log_help : Showing coloumn names
+2022-05-29 03:48:57,766 : INFO : log_help : Dropped duplicates: Int64Index([], dtype='int64')
+2022-05-29 03:48:57,766 : INFO : log_help : Dropped duplicates: Int64Index([], dtype='int64')
+2022-05-29 03:48:57,766 : INFO : log_help : Dropped duplicates: Int64Index([], dtype='int64')
+2022-05-29 03:48:57,766 : INFO : log_help : Dropped duplicates: Int64Index([], dtype='int64')
+2022-05-29 03:48:57,766 : INFO : log_help : Dropped duplicates: Int64Index([], dtype='int64')
+2022-05-29 03:48:57,766 : INFO : log_help : Dropped duplicates: Int64Index([], dtype='int64')
+2022-05-29 03:48:57,769 : INFO : log_help : Showing data information
+2022-05-29 03:48:57,769 : INFO : log_help : Showing data information
+2022-05-29 03:48:57,769 : INFO : log_help : Showing data information
+2022-05-29 03:48:57,769 : INFO : log_help : Showing data information
+2022-05-29 03:48:57,769 : INFO : log_help : Showing data information
+2022-05-29 03:48:57,769 : INFO : log_help : Showing data information
+2022-05-29 03:48:57,769 : INFO : log_help : Showing data information
+2022-05-29 03:48:57,822 : INFO : log_help : Showing datatypes
+2022-05-29 03:48:57,822 : INFO : log_help : Showing datatypes
+2022-05-29 03:48:57,822 : INFO : log_help : Showing datatypes
+2022-05-29 03:48:57,822 : INFO : log_help : Showing datatypes
+2022-05-29 03:48:57,822 : INFO : log_help : Showing datatypes
+2022-05-29 03:48:57,822 : INFO : log_help : Showing datatypes
+2022-05-29 03:48:57,822 : INFO : log_help : Showing datatypes
+2022-05-29 03:48:57,822 : INFO : log_help : Showing datatypes
+2022-05-29 03:49:03,115 : INFO : log_help : Colums with missing values: ['floats']
+2022-05-29 03:49:03,115 : INFO : log_help : Colums with missing values: ['floats']
+2022-05-29 03:49:03,115 : INFO : log_help : Colums with missing values: ['floats']
+2022-05-29 03:49:03,119 : INFO : log_help : Converted to numbers
+2022-05-29 03:49:03,119 : INFO : log_help : Converted to numbers
+2022-05-29 03:49:03,119 : INFO : log_help : Converted to numbers
+2022-05-29 03:49:03,119 : INFO : log_help : Converted to numbers
+2022-05-29 03:49:03,120 : INFO : log_help : Showing coloumn names
+2022-05-29 03:49:03,120 : INFO : log_help : Showing coloumn names
+2022-05-29 03:49:03,120 : INFO : log_help : Showing coloumn names
+2022-05-29 03:49:03,120 : INFO : log_help : Showing coloumn names
+2022-05-29 03:49:03,120 : INFO : log_help : Showing coloumn names
+2022-05-29 03:49:03,129 : INFO : log_help : Dropped duplicates: Int64Index([], dtype='int64')
+2022-05-29 03:49:03,129 : INFO : log_help : Dropped duplicates: Int64Index([], dtype='int64')
+2022-05-29 03:49:03,129 : INFO : log_help : Dropped duplicates: Int64Index([], dtype='int64')
+2022-05-29 03:49:03,129 : INFO : log_help : Dropped duplicates: Int64Index([], dtype='int64')
+2022-05-29 03:49:03,129 : INFO : log_help : Dropped duplicates: Int64Index([], dtype='int64')
+2022-05-29 03:49:03,129 : INFO : log_help : Dropped duplicates: Int64Index([], dtype='int64')
+2022-05-29 03:49:03,134 : INFO : log_help : Showing data information
+2022-05-29 03:49:03,134 : INFO : log_help : Showing data information
+2022-05-29 03:49:03,134 : INFO : log_help : Showing data information
+2022-05-29 03:49:03,134 : INFO : log_help : Showing data information
+2022-05-29 03:49:03,134 : INFO : log_help : Showing data information
+2022-05-29 03:49:03,134 : INFO : log_help : Showing data information
+2022-05-29 03:49:03,134 : INFO : log_help : Showing data information
+2022-05-29 03:49:03,200 : INFO : log_help : Showing datatypes
+2022-05-29 03:49:03,200 : INFO : log_help : Showing datatypes
+2022-05-29 03:49:03,200 : INFO : log_help : Showing datatypes
+2022-05-29 03:49:03,200 : INFO : log_help : Showing datatypes
+2022-05-29 03:49:03,200 : INFO : log_help : Showing datatypes
+2022-05-29 03:49:03,200 : INFO : log_help : Showing datatypes
+2022-05-29 03:49:03,200 : INFO : log_help : Showing datatypes
+2022-05-29 03:49:03,200 : INFO : log_help : Showing datatypes
+2022-05-29 03:58:02,333 : INFO : log_help : Colums with missing values: ['floats']
+2022-05-29 03:58:02,333 : INFO : log_help : Colums with missing values: ['floats']
+2022-05-29 03:58:02,333 : INFO : log_help : Colums with missing values: ['floats']
+2022-05-29 03:58:02,340 : INFO : log_help : Converted to numbers
+2022-05-29 03:58:02,340 : INFO : log_help : Converted to numbers
+2022-05-29 03:58:02,340 : INFO : log_help : Converted to numbers
+2022-05-29 03:58:02,340 : INFO : log_help : Converted to numbers
+2022-05-29 03:58:02,341 : INFO : log_help : Showing coloumn names
+2022-05-29 03:58:02,341 : INFO : log_help : Showing coloumn names
+2022-05-29 03:58:02,341 : INFO : log_help : Showing coloumn names
+2022-05-29 03:58:02,341 : INFO : log_help : Showing coloumn names
+2022-05-29 03:58:02,341 : INFO : log_help : Showing coloumn names
+2022-05-29 03:58:02,347 : INFO : log_help : Dropped duplicates: Int64Index([], dtype='int64')
+2022-05-29 03:58:02,347 : INFO : log_help : Dropped duplicates: Int64Index([], dtype='int64')
+2022-05-29 03:58:02,347 : INFO : log_help : Dropped duplicates: Int64Index([], dtype='int64')
+2022-05-29 03:58:02,347 : INFO : log_help : Dropped duplicates: Int64Index([], dtype='int64')
+2022-05-29 03:58:02,347 : INFO : log_help : Dropped duplicates: Int64Index([], dtype='int64')
+2022-05-29 03:58:02,347 : INFO : log_help : Dropped duplicates: Int64Index([], dtype='int64')
+2022-05-29 03:58:02,348 : INFO : log_help : Showing data information
+2022-05-29 03:58:02,348 : INFO : log_help : Showing data information
+2022-05-29 03:58:02,348 : INFO : log_help : Showing data information
+2022-05-29 03:58:02,348 : INFO : log_help : Showing data information
+2022-05-29 03:58:02,348 : INFO : log_help : Showing data information
+2022-05-29 03:58:02,348 : INFO : log_help : Showing data information
+2022-05-29 03:58:02,348 : INFO : log_help : Showing data information
+2022-05-29 03:58:02,390 : INFO : log_help : Showing datatypes
+2022-05-29 03:58:02,390 : INFO : log_help : Showing datatypes
+2022-05-29 03:58:02,390 : INFO : log_help : Showing datatypes
+2022-05-29 03:58:02,390 : INFO : log_help : Showing datatypes
+2022-05-29 03:58:02,390 : INFO : log_help : Showing datatypes
+2022-05-29 03:58:02,390 : INFO : log_help : Showing datatypes
+2022-05-29 03:58:02,390 : INFO : log_help : Showing datatypes
+2022-05-29 03:58:02,390 : INFO : log_help : Showing datatypes
