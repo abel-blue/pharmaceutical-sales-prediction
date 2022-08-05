@@ -113,7 +113,7 @@
 ## Installation guide
 
 ```bash
-git clone https://github.com/Abel-Blue/pharmaceutical-sales-prediction
+git clone https://github.com/Abel-Blue/pharmaceutical-sales-prediction.git
 cd pharmaceutical-sales-prediction
 sudo python3 setup.py install
 ```
