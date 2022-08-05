@@ -12,9 +12,6 @@
 
 ![drug-image](https://www.afd.fr/sites/afd/files/styles/visuel_principal/public/2019-10-09-27-46/flickr-marco-verch.jpg?itok=XH4x7-Y4)
 
-## Presentation Slide
-- [Rossmann Pharmaceutical Sales prediction](https://www.canva.com/design/DAFBtdnLoKQ/hxJHGTgvoTwJMX9hXbbGVA/view?utm_content=DAFBtdnLoKQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-
 ## Data visualization link
 - [visualization link](https://share.streamlit.io/abel-blue/pharmaceutical-sales-prediction/main/app.py)
 
